@@ -1,0 +1,439 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    user-select: none;
+}
+body{
+    font-family:sans-serif;
+    background-color: #000000;
+
+}
+.contenedor-img{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+
+}
+.img-initial{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+.cont-tillr{
+    display: flex;
+}
+.titlekclla{
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    color: white;
+    top: 6%;
+    left: 8%;
+    font-size: 80px;
+    line-height: 80px;
+}
+.titlekclla a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.interval-text{
+    position: absolute;
+    color: #ffffff;;
+    top: 15%;
+    left: 8%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.segtitle{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-215%);
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: 35px;
+}
+.expert{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-18%);
+    letter-spacing: 1px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.spamincon{
+    /* position:absolute; */
+    color: white;
+}
+.elfacha{
+    width: 199px;
+    height: 220px;
+    position: absolute;
+    right: 12%;    
+    top: 20px;
+    box-shadow: rgb(240 46 46 / 40%) 5px 5px, rgb(240 46 46 / 30%) 10px 10px, rgb(240 46 170 / 20%) 15px 15px, rgb(240 46 170 / 10%) 20px 20px, rgb(240 46 170 / 5%) 25px 25px;
+    border-radius: 6%;
+}
+
+.fep{
+    color: white;
+    z-index: 9999999999999999999999999999999999999;
+}
+.ult-c{
+  display: flex;
+  list-style: none;
+}
+.main-nav-icon{
+    position: absolute;
+    top: 188px;
+    left: 8%;
+}
+.clasicon{
+    color: white;
+    padding: 0px 11px;
+    font-size: 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.clasicon:hover{
+  color:red;
+  font-size: 20px;
+}
+.sect-cont{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    z-index: 9;
+    margin-top: 550px;
+    justify-content: center;
+}
+.img-section{
+    margin: 0 auto;
+    text-align: center;
+}
+.fotosite{
+object-fit: cover;
+width: 300px;
+height: 200px;
+}
+.title-sect{
+color: white;
+font-family: 'Bebas Neue', cursive;
+font-size: 35px;
+letter-spacing: 2px;
+
+}
+/* slider */
+.container-slider{
+  margin: 50px 0 90px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider{
+    padding: 0;
+    display: flex;
+    width: 300%;
+    height: 400px;
+    margin-left: -100% ;  
+}
+
+.slider::before{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+}
+
+.slider__section{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.slider__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.slider__btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999;
+    color: #fff; 
+    transition: 0.5s all ease;
+}
+
+.slider__btn:hover{
+    background-color: #fff;
+    color: #000000;
+}
+
+.slider__btn--right{
+    right: 10px;
+    /* text-decoration: none; */
+    outline: none;
+}
+
+.slider__btn--left{
+    left: 10px;
+    /* text-decoration: none; */
+    outline: none;
+
+}
+
+.slider__content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    text-align: center;
+    z-index: 99;
+
+}
+
+.slider__title{
+    font-size: 2.2em;
+}
+
+
+.slider__txt{
+    margin: 5px 0;
+}
+
+.slider__link{
+  display: block;
+  border: 1px solid #183153;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  margin: 10px auto;
+  transition: all 0.5s;
+}
+
+
+.slider__link:hover{
+    background: #183153 ;
+    color: white;
+  }
+
+/* slider */
+.sec-cont--cont{
+    border-top: 1px solid;
+    width: 70%;
+    margin: auto;
+}
+.cont-sect-cont{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.hj-cont-cont{
+  margin: 90px;
+
+}
+.hj-cont-cont li {
+  margin-bottom: 6px;
+}
+.title-cont{
+  text-align: center;
+  font-size: 35px;
+  margin-left: -16px;
+}
+h3{
+  font-size: 20px;
+  margin-bottom: 7px;
+  margin-left: -19px;
+}
+
+.prsect{
+    color: white;
+}
+.-mid{
+    width: 100%;
+}
+.cont-omg{
+  width: 100%;
+  height: 52vh;
+  background-color: black;
+}
+.omg-img{
+   width: 315px;
+   height: 320px;
+   margin-left: 35px;
+}
+.sigenca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sighij{
+    width: 50%;
+    padding: 63px;
+}
+.sighij h2{
+    padding-bottom: 10px;
+    font-size: 33px;
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+.sighij p{
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 100;
+}
+/* .aenc h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 41px;
+} */
+
+/* 
+  .btn {
+    --border-color: linear-gradient(-45deg, #ffae00, #7e03aa, #00fffb);
+    --border-width: .125em;
+    --curve-size: .5em;
+    --blur: 30px;
+    --bg: #080312;
+    --color: #afffff;
+    color: var(--color);
+    position: relative;
+    isolation: isolate;
+    display: inline-grid;
+    place-content: center;
+    padding: .5em 1.5em;
+    font-size: 17px;
+    border: 0;
+    text-transform: uppercase;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .6);
+    clip-path: polygon(
+              0% var(--curve-size),
+  
+              var(--curve-size) 0,
+              100% 0,
+              100% calc(100% - var(--curve-size)),
+  
+              calc(100% - var(--curve-size)) 100%,
+              0 100%);
+    transition: color 250ms;
+  }
+  
+  .btn{
+    cursor: pointer;
+  }
+  .btn::after,
+  .btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+  
+  .btn::before {
+    background: var(--border-color);
+    background-size: 300% 300%;
+    animation: move-bg7234 5s ease infinite;
+    z-index: -2;
+  }
+  
+  
+  @keyframes move-bg7234 {
+    0% {
+      background-position: 31% 0%
+    }
+  
+    50% {
+      background-position: 70% 100%
+    }
+  
+    100% {
+      background-position: 31% 0%
+    }
+  }
+  
+  .btn::after {
+    background: var(--bg);
+    z-index: -1;
+    clip-path: polygon(
+              var(--border-width) 
+              calc(var(--curve-size) + var(--border-width) * .5),
+  
+              calc(var(--curve-size) + var(--border-width) * .5) var(--border-width),
+  
+              calc(100% - var(--border-width)) 
+              var(--border-width),
+  
+              calc(100% - var(--border-width)) 
+              calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
+  
+              calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) calc(100% - var(--border-width)),
+              var(--border-width) calc(100% - var(--border-width)));
+    transition: clip-path 500ms;
+  }
+  
+  .btn:where(:hover, :focus)::after {
+    clip-path: polygon(
+                  calc(100% - var(--border-width)) 
+  
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+      
+                  calc(100% - var(--border-width))
+  
+                  var(--border-width),
+      
+                  calc(100% - var(--border-width))
+  
+                   var(--border-width),
+      
+                  calc(100% - var(--border-width)) 
+  
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
+      
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) 
+                  calc(100% - var(--border-width)),
+  
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+                  calc(100% - var(--border-width)));
+    transition: 200ms;
+  }
+  
+.btn:where(:hover, :focus) {
+    color: #fff;
+  } */
+/* .lopw{
+  width:150px;
+  height:150px;
+}
+.skill{
+  width: 160px;
+  height: 160px;
+  background: cornflowerblue;
+  position: relative;
+} */
+.fot{
+  background-color: #000000;
+}
