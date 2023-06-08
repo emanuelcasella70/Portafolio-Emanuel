@@ -8,7 +8,7 @@
 }
 body{
     font-family:sans-serif;
-    background-color: #000000;
+    background-color: #010305;
 
 }
 .contenedor-img{
@@ -57,6 +57,8 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
     font-size: 35px;
+    width: 100%;
+    text-align: center;
 }
 .expert{
     position: absolute;
@@ -281,7 +283,6 @@ h3{
 }
 .cont-omg{
   width: 100%;
-  height: 52vh;
   background-color: black;
 }
 .omg-img{
@@ -437,3 +438,82 @@ h3{
 .fot{
   background-color: #000000;
 }
+
+.pandaicon{
+   z-index: 999999999999999999999;
+   display: none;
+}
+@media screen and (max-width:1000px) {
+  .elfacha{
+    display:none;
+  }
+  .cont-sect-cont{
+    flex-direction: column;
+  }
+  .sect-cont{
+    flex-direction: column;
+    position: relative;
+    top: 236px;
+  }
+  .main-nav-icon{
+    display: none;
+  } 
+  .pandaicon{
+    display: inline;
+    position: absolute;
+    right: 0;
+    padding-right: 55px;
+    padding-top: 27px;
+    font-size: 31px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .cont-icon{
+    user-select: none;
+  }
+  .contenedor-img{
+    margin-bottom: 465px;
+  }
+  .omg-img{
+    display: none;
+  }
+  .sighij {
+    width: 75%;
+    padding: 24px;
+  }
+}
+@media screen and (max-width:550px) {
+  .sect-cont{
+    flex-direction: column;
+    position: relative;
+    top: 236px;
+  }
+  main{
+    margin-top: 498px;
+  
+  }
+  .cont-tillr{
+    font-size: 10px;
+  }
+  .titlekclla{
+    font-size: 56px;
+  }
+  .interval-text{
+    font-size: 18px;
+  }
+  .main-nav-icon{
+   display: none;
+  }
+  .segtitle{
+    width: 100%;
+    font-size: 21px;
+    transform: translate(-50%, -288%);
+  }
+  .expert{
+   font-size: 21px; 
+  }
+  .elfacha{
+    display: none;
+  }
+}
+
