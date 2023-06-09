@@ -52,4 +52,3 @@ btnLeft.addEventListener("click", function(){
 
 
 
-
