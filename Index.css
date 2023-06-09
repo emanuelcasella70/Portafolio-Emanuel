@@ -444,6 +444,9 @@ h3{
    z-index: 999999999999999999999;
    display: none;
 }
+.none{
+  display: none;
+}
 @media screen and (max-width:1000px) {
   .tx-{
     display: inline;
@@ -497,6 +500,7 @@ h3{
     flex-direction: column;
     position: relative;
     top: 236px;
+    right: 13px;
   }
   /* .main-nav-icon{
     display: none;
@@ -525,6 +529,7 @@ h3{
     padding: 24px;
   }
 }
+
 @media screen and (max-width:550px) {
   .sect-cont{
     flex-direction: column;
@@ -558,5 +563,8 @@ h3{
   .elfacha{
     display: none;
   }
+  .contenedor-img {
+    margin-bottom: 600px;
+}
 }
 
