@@ -448,6 +448,12 @@ h3{
   display: none;
 }
 @media screen and (max-width:1000px) {
+  .titlekclla{
+    top:10%;
+  }
+  .interval-text{
+    top:18%;
+  }
   .tx-{
     display: inline;
   }
@@ -512,7 +518,7 @@ h3{
     display: inline;
     position: absolute;
     right: 0;
-    padding-right: 55px;
+    padding-right: 25px;
     padding-top: 27px;
     font-size: 31px;
     cursor: pointer;
@@ -575,5 +581,8 @@ h3{
   .contenedor-img {
     margin-bottom: 600px;
 }
+.title-cont {
+  font-size: 24px;
+  margin-left: 4px;
 }
-
+}
