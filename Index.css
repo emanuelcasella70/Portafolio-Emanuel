@@ -614,6 +614,9 @@ h3{
   .delf{
     display: none;
   }
+  .alert{
+    width: 90%;
+  }
 }
 
 @media screen and (max-width:550px) {
