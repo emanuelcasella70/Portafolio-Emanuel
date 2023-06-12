@@ -316,6 +316,79 @@ h3{
     font-family: 'Bebas Neue', cursive;
     font-size: 41px;
 }  
+
+.dvAlert {
+  display: flex;
+  margin: 39px 32px 40px 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-y: scroll;
+  height: 600px;
+}
+/* .opacity {
+  width: 1000%;
+  height: 1000%;
+  background-color: #151515;
+  position: fixed;
+  z-index: 9999999999999999999999999999999999999;
+  opacity: 0.5;
+} */
+.mm {
+  display: none;
+}
+.cio {
+  color: #fff;
+  cursor: pointer;
+  font-size: 22px;
+  position: fixed;
+  margin-top: -17px;
+  margin-left: -10px;
+  z-index: 99;
+}
+.alert {
+  width: 50%;
+  background-color: #333;
+  position: fixed;
+  top: 120px;
+  opacity: 1;
+  border-radius: 20px;
+  z-index: 99999999999999999999999999999999999999999;
+  overflow: auto;
+}
+.opacity {
+  width: 1000%;
+  height: 1000%;
+  background-color: #151515;
+  position: fixed;
+  z-index: 9999999999999999999999999999999999999;
+  opacity: 0.5;
+}
+.mg-lok{
+  user-select: none;
+  display: block;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+.mg-lok:hover{
+  opacity: 0.2;
+}
+.cont-img-sect{
+  user-select: none;
+  width: 80%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+}
+.cont-select-sect{
+  user-select: none;
+  margin-top: 35px;
+}
+.tiitle-sect{
+  margin-bottom: 25px;
+  font-family: 'Bebas Neue', cursive;
+}
   .btn {
     --border-color: linear-gradient(-45deg, #ffae00, #7e03aa, #00fffb);
     --border-width: .125em;
