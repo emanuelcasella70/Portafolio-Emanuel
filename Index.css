@@ -375,7 +375,6 @@ h3{
   width: 80%;
   height: 100%;
   position: relative;
-  cursor: pointer;
 }
 .cont-select-sect{
   user-select: none;
@@ -616,8 +615,6 @@ h3{
   }
   .alert{
     width: 90%;
-    height: 600px;
-    margin-bottom:400px ;
   }
 }
 
