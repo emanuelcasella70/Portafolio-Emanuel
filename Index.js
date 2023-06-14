@@ -36,18 +36,18 @@ function prev(){
   
 
 
-// btnRight.addEventListener("click", function(){
-//  Next();
-// });
+btnRight.addEventListener("click", function(){
+ Next();
+});
 
-// btnLeft.addEventListener("click", function(){
-//     prev();
-//    });
+btnLeft.addEventListener("click", function(){
+    prev();
+   });
  
-//    setInterval(function(){
-//     Next();
+   setInterval(function(){
+    Next();
    
-//    }, 10000);
+   }, 10000);
 
 
 
