@@ -18,7 +18,6 @@
     <header>
         <div class="contenedor-img"><img class="img-initial"src="./folderimg/colors.jpg"alt="">
            <span class="pandaicon"id="icon-menu"><i class="fas fa-bars"></i></span>
-            <!--  <img src="./folderimg/paraportafolio.jpg"alt="Emanuel Casella developer web"class="elfacha"> -->
             <nav class="main-nav-icon"id="nav">
                 <ul class="ult-c sean-">
                     <li class="tx-li"><a href="https://github.com/emanuelcasella70"target="_blank"><i class="fa-brands fa-github clasicon"></i><p class="tx-">Github</p></a></li>
@@ -44,52 +43,13 @@
             <i class="fab fa-node"></i>
             <i class="fas fa-database"></i>
         </section>
-    </div>
-</div>
-        <!-- <section class="sect-cont">
-            <div class="img-section"><img src="./folderimg/website2.png" alt=""class="fotosite"><h2 class="title-sect">web site</h2><p class="prsect">html - css</p></div>
-            <div class="img-section"><img src="./folderimg/backend2.png" alt=""class="fotosite"><h2 class="title-sect">back end</h2><p class="prsect">node.js</p></div>
-            <div class="img-section"><img src="./folderimg/programing2.png" alt="" class="fotosite"><h2 class="title-sect">programing</h2><p class="prsect">Javascript</p></div>
-        </section> -->
-    </div> 
-    </header>
-    <main>
-        <div class="container-slider">
-            <div class="slider"id="slider">
-                <div class="slider__section">
-                    <img src="./folderimg/black-hole-6274731.jpg"alt=""class="slider__img">
-                    <div class="slider__content">
-                        <h2 class="slider__title">Full Stack Developer</h2>
-                        <p class="slider__txt">{Javascript - Node js}</p>
-                    </div>
-                </div>
-                <div class="slider__section">
-                    <img src="./folderimg/tierra.jpg"alt=""class="slider__img">
-                    <div class="slider__content">
-                        <h2 class="slider__title">Web Designs</h2>
-                        <p class="slider__txt">{HTML - CSS}</p>
-                    </div>
-                </div>
-                <div class="slider__section">
-                    <img src="./folderimg/estrellas.png"alt=""class="slider__img">
-                    <div class="slider__content">
-                        <h2 class="slider__title">API REST</h2>
-                        <p class="slider__txt">{NODE JS}</p>
-                    </div>
-                </div>
-            </div>
-            <div class="slider__btn slider__btn--right"id="btn-right">></div>
-            <div class="slider__btn slider__btn--left"id="btn-left">&#60;</div>
+        <div class="contedeo-boton">
+            <button class="btn"onclick="addd()">WATHC MY PROYECTS</button>
         </div>
-            <div class="cont-omg">
-                   <h2 class="title-cont">INFORMACION SOBRE MI</h2>
-                   <div class="sigenca">
-                    <div class=""id="cds"></div>
-                    <div class="mm"id="hold">
+    </div>
+    <div class="mm"id="hold">
+        <i class="fas fa-times-circle cio-fixed"id="delate"onclick="quit()"></i>
                         <div class="dvAlert">
-                            <!-- <div class="conteiner-cio">
-                                <i class="fas fa-times-circle cio"id="delate"onclick="quit()"></i>
-                            </div> -->
                             <div class="contenedor-section"> 
                                 <section class="cont-select-sect">
                                         <h2 class="tiitle-sect">E-COMERCE</h2>
@@ -97,7 +57,7 @@
                                             <img src="./folderimg/ecomerce.jpg"alt=""class="mg-lok">
                                             <p class="text-info">Este proyecto es un E-commerce desarrollado desde cero, enfocado en ofrecer una experiencia de usuario fluida y segura. El desafío principal fue la implementación técnica de la pasarela de pagos utilizando la API de Mercado Pago, Se puede probar y simular una compra ya que utilizo Render para ejecutar el entorno de Node.js.</p>
                                             <div class="btn-cont"> 
-                                                <button class="btn"><a href="https://repositorio-ecomerce.onrender.com"target="_blank">SEE PROYECT</a></button>
+                                                <button class="btn"><a href="https://ecomercefront.netlify.app/"target="_blank">SEE PROYECT</a></button>
                                                 <button class="btn"><a href="https://github.com/emanuelcasella70/repositorio-ecomerce"target="_blank"><i class="fa-brands fa-github git"></i>SEE GIT CODE</a></button>
                                             </div>
                                         </div>
@@ -119,7 +79,7 @@
                                         <img src="./folderimg/ia.jpeg"alt=""class="mg-lok">
                                         <p class="text-info">AGENTE IA - este agente fue creado para que interprete mi cv y de repuestas en base a el. GOOGLE IA STUDIO Es el cerebro de la app (MODELO / MOTOR) llamado desde su API key de google ia studio usando el modelo gemini-1.5-flash. Procesa la informacion y te devuelve una respuesta.</p>
                                        <div class="btn-cont">
-                                           <!-- <button class="btn"><a href="https://fancy-lily-0106be.netlify.app"target="_blank">SEE PROYECT</a></button> -->
+                                           <button class="btn"><a href="https://fancy-lily-0106be.netlify.app"target="_blank">SEE PROYECT</a></button>
                                            <button class="btn"><a href="https://github.com/emanuelcasella70/API-STRIPE"target="_blank"><i class="fa-brands fa-github git"></i>SEE GIT CODE</a></button>
                                         </div>
                                     </div>
@@ -160,40 +120,10 @@
                                 </section>
                             </div>
                         </div>
-                    </div>
-                        <div class="sighij">
-                            <P>Como desarrollador Full Stack tengo conocimientos amplios en desarrollo web, CONSUMOS APIS, API REST, DISEÑOS WEB, LOGICA EN PROGRACION CON JAVASCRIPT. Una de mis metas es poder conseguir trabajo como Desarrollador para poder perfeccionarme y seguir enfocandome en lo que me gusta. Hoy en dia me encuentro creando un E-commerce desde cero con html, css, javaScript y Node js, estoy adaptando métodos de pagos para que sea una aplicación efectiva y linda visualmente. Soy una persona que se adapta a nuevas tecnologias y mis metas son seguir conociendo nuevas librerias y frameworks. Ahora apunto a terminar mi proyecto E-comerce y integrarlo con React. Cualquier tecnologia, libreria o frameworks que la empresa necesite yo estoy 100% dispuesto a aprenderlo con mi mayor disposicion.</P>
-                            <button class="btn"onclick="addd()">WATHC MY PROYECTS</button>
-                        </div>
-                        <!-- <img src="./folderimg/Negro Tecnología RedactorEditor Trabajador Indepeno Web.png"alt=""class="omg-img"> -->
-                   </div>
-            </div>
-    </main>     
-    <footer class="fot">
-        <section class="sec-cont--cont">
-            <div class="cont-sect-cont">
-                <div class="hj-cont-cont">
-                    <h3>CONOCIMIENTOS TECNICOS</h3>
-                    <ul>
-                        <li>Node js y mysql CRUD</li>
-                        <li>Conocimientos solidos en asincronismo</li>
-                        <li>Cusumir Apis.</li>
-                        <li>Node.js</li>
-                        <li>Logica en programacion. (Javascript) </li>
-                    </ul>
-                </div>
-                <div class="hj-cont-cont">
-                    <h3>HERRAMIENTAS DE DESARROLLADOR</h3>
-                    <ul>
-                        <li>Babel - para versiones compatibles</li>
-                        <li>Express</li>
-                        <li>Nodemon</li>
-                        <li>Morgan</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </footer>
+                    
+</div>
+    </div> 
+    </header>
     <script src="./Index.js"></script>
     <script src="./but.js"></script>
     <script src="./btn.js"></script>
